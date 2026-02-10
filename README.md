@@ -58,13 +58,23 @@ weighted avg       0.98      0.98      0.98       114
 
   * Malignant: 0.98
   * Benign: 0.99
+    
+ 
+    **Sensitivity and Specificity**
+
+Sensitivity (Recall): 0.9861111111111112
+
+Specificity: 0.9761904761904762
+
+Malignant as Positive Class (Clinical Interpretation):
+
+Sensitivity: 0.9761904761904762
+
+Specificity: 0.9861111111111112
 
 ## 🧠 Interpretation of Results
 
-* The model demonstrates excellent diagnostic performance with very high precision and recall for both classes.
-* False negatives are minimal, which is especially important in medical diagnosis where missing malignant cases can have serious consequences.
-* The balanced macro and weighted averages indicate consistent performance despite class imbalance.
-* Logistic Regression proves to be a strong and interpretable baseline model for this dataset.
+The model demonstrates excellent diagnostic performance, with very high accuracy and balanced sensitivity and specificity. Only two cases were misclassified, indicating strong reliability for distinguishing between malignant and benign tumors.
 
 ## 🛠️ Tools and Libraries
 
